@@ -1,0 +1,155 @@
+/* 活動 */
+.event {
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    /* background-color: #cbc0aa; */
+}
+
+
+.event-content {
+    width: 100%;
+}
+
+.event-topic {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #613e3b;
+}
+
+.event-img-t {
+    height: 50vh;
+    background-image: url('https://i.pinimg.com/564x/64/e2/88/64e28884792fa4a9848f53a5fcf99532.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.event-img-b {
+    height: 50vh;
+    background-image: url('https://i.pinimg.com/564x/2d/c9/54/2dc95435df7c0c6f1438f5e088386afa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.event-text {
+    text-align: center;
+    line-height: 2;
+    color: #613e3b;
+}
+.event-deco {
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #613e3b;
+}
+
+.event-btn {
+    margin-left: 31%;
+    margin-bottom: 20px;
+}
+
+
+/* 互動視窗的樣式 */
+.modal-content {
+    color: white;
+    background-image: url('https://i.pinimg.com/564x/de/73/af/de73affca01e605693355406ef527f0a.jpg');
+}
+
+.modal-body {
+    margin: auto;  
+    padding: unset; 
+}
+
+h5{
+    text-align: center;
+    color: #613e3b;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.form-group {
+    background-color: #613e3b;
+    border-radius: 50px;
+    border: 2px solid #613e3b;
+    padding: 2px;
+}
+
+.form-group input{
+    width: 200px;
+    padding: 5px;
+    border: unset;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.form-group-text textarea {
+    width: 270px;
+    border: 4px solid #613e3b;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.form-group label {
+    margin: unset;
+    padding: 0 10px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer .btn {
+    margin: auto;
+    background-color: #613e3b;
+    color: white;
+}
+
+.close {
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.fa-times {
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    color: white;
+    background-color: #613e3b;
+    text-align: center;
+    border-radius: 50%; 
+}
+
+.btn-primary {
+    background-color:  #613e3b;
+    border-color:  #613e3b;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #ca7159;
+    border-color: #f0ebe2;
+    color: #613e3b;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #ca7159;
+    border-color: #f0ebe2;
+    color: #613e3b;
+}
+
+/* 互動視窗的樣式 */
+
+
+
+
+
+
+
+
